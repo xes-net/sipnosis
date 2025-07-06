@@ -1,4 +1,8 @@
-        (        # """# # from pathlib import Path
+        (        # """# # assets/
+├── preview.jpg                  # (vuoto, da sostituire con immagine reale)
+├── Symbols.pdf                  # (segnaposto)
+├── rituale-giornaliero.html     # HTML con rituale
+└── oracolo-esempio.txt          # Messaggio simbolico testualefrom pathlib import Path
 
 # Create README.md content
 readme_content = """# ☕🔮 SipnoSis
