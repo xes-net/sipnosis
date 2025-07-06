@@ -1,4 +1,159 @@
-                (        # """# # assets/
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Decode the messages in your coffee stains - The Oracle in Your Cup">
+    <meta name="theme-color" content="#000000">
+    <title>Sipnosis - The Oracle in Your Cup</title>
+    <link rel="manifest" href="app.webmanifest">
+    <link rel="apple-touch-icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>☕</text></svg>">
+    <link href="https://fonts.googleapis.com/css2?family=Georgia&display=swap" rel="stylesheet">
+    <style>
+        /* Basic Reset & Font */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background: linear-gradient(135deg, #000 0%, #1a1a1a 50%, #000 100%);
+            color: #ffd700;
+            font-family: 'Georgia', serif;
+            text-align: center;
+            min-height: 100vh;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .container {
+            max-width: 800px;
+            width: 100%;
+            margin: 0 auto;
+            padding: 0 10px;
+        }
+
+        /* Install App Banner */
+        .install-banner {
+            background: rgba(255, 215, 0, 0.15);
+            border: 1px solid rgba(255, 215, 0, 0.3);
+            border-radius: 10px;
+            padding: 15px;
+            margin-bottom: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            animation: fadeIn 1s ease-in;
+            display: none;
+        }
+
+        .install-banner button {
+            background: linear-gradient(45deg, #ffd700, #ffb347);
+            color: #000;
+            border: none;
+            padding: 8px 15px;
+            border-radius: 20px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: all 0.3s ease;
+        }
+
+        .install-banner button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(255, 215, 0, 0.4);
+        }
+
+        /* Header & Title */
+        h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+            text-shadow: 0 0 20px rgba(255, 215, 0, 0.7);
+            animation: glow 2s ease-in-out infinite alternate;
+        }
+
+        @keyframes glow {
+            from { text-shadow: 0 0 20px rgba(255, 215, 0, 0.7); }
+            to { text-shadow: 0 0 30px rgba(255, 215, 0, 1); }
+        }
+
+        .subtitle {
+            font-size: 1.2em;
+            line-height: 1.6;
+            margin-bottom: 40px;
+            font-style: italic;
+        }
+
+        /* Golden Ring Animation */
+        .golden-ring {
+            width: 200px;
+            height: 200px;
+            border: 10px solid #ffd700;
+            border-radius: 50%;
+            margin: 0 auto 30px;
+            animation: spin 10s linear infinite;
+            box-shadow: 0 0 30px rgba(255, 215, 0, 0.5);
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .golden-ring::before {
+            content: '☕';
+            font-size: 4em;
+            animation: counter-spin 10s linear infinite;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        @keyframes counter-spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(-360deg); }
+        }
+
+        /* Upload Section */
+        .upload-section {
+            background: rgba(255, 215, 0, 0.1);
+            padding: 40px;
+            border-radius: 15px;
+            border: 1px solid rgba(255, 215, 0, 0.3);
+            margin: 30px auto;
+            backdrop-filter: blur(10px);
+            max-width: 600px;
+            width: 100%;
+        }
+
+        .form-group {
+            margin: 20px 0;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 10px;
+            font-weight: bold;
+            color: #ffd700;
+        }
+
+        select, input[type="file"] {
+            background: rgba(0, 0, 0, 0.7);
+            color: #ffd700;
+            border: 2px solid #ffd700;
+            padding: 12px 15px;
+            border-radius: 8px;
+            font-family: 'Georgia', serif;
+            font-size: 1em;
+            width: 100%;
+            max-width: 300px;
+            displa
+            
+            (        # """# # assets/
 ├── preview.jpg                  # (vuoto, da sostituire con immagine reale)
 ├── Symbols.pdf                  # (segnaposto)
 ├── rituale-giornaliero.html     # HTML con rituale
@@ -325,4 +480,4 @@ Hash etico: sipnosis-c20425f+8ec0db6.L
 ```bash
 cd frontend
 npm install
-npm start
+npm startcc
