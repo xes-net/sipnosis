@@ -1,4 +1,4 @@
-        (        # """# # assets/
+                (        # """# # assets/
 ├── preview.jpg                  # (vuoto, da sostituire con immagine reale)
 ├── Symbols.pdf                  # (segnaposto)
 ├── rituale-giornaliero.html     # HTML con rituale
