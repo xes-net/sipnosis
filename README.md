@@ -1,4 +1,4 @@
-# 📜 SipnoSis.L — Versione Oracolare Tracciata
+        # 📜 SipnoSis.L — Versione Oracolare Tracciata
 
 🔮 Nome Progetto: SipnoSis
 🧙‍♂️ Autore: Paride Novellino
