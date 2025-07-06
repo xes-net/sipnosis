@@ -1,4 +1,102 @@
-        (        # """# # 📜 SipnoSis.L — Oracle Version (D.O.P. Certified)
+        (        # """# # from pathlib import Path
+
+# Create README.md content
+readme_content = """# ☕🔮 SipnoSis
+
+**SipnoSis** è un oracolo interattivo che trasforma la tua macchia di caffè o tè in una rivelazione quotidiana.
+Basato su simbologia egizia, pentacoli elementali, tarocchi e direzioni rituali, è alimentato da AI, ma ispirato dagli antichi.
+
+---
+
+## 🔗 Sito Live
+
+👉 [https://sipnosis.vercel.app](https://sipnosis.vercel.app) *(frontend)*  
+👉 `https://sipnosis-backend.onrender.com/api/oracle` *(backend Flask - in arrivo)*
+
+---
+
+## 📸 Come funziona
+
+1. **Scatta** una foto alla tua macchia di caffè o tè
+2. **Caricala** nel portale SipnoSis
+3. **Scegli un intento**: Guarigione, Direzione, Abbondanza, Protezione...
+4. **Bevi e ricevi** il tuo messaggio oracolare personalizzato
+5. Consulta il tuo **Libro dei Sorsi** per tracciare i rituali passati
+
+---
+
+## 💡 Caratteristiche
+
+### 🔁 Backend Flask
+- Analisi hash-based della macchia
+- Sistema di sessione utente in-memory
+- API `/api/oracle` e `/api/history`
+- Simboli egizi unicode e risposta dinamica per intento
+
+### 🖼️ Frontend React
+- Upload con anteprima immagine
+- Lettura oracolare animata
+- Interfaccia mistica dorato/nero
+- Cronologia personale e rituali giornalieri
+
+---
+
+## 🛠 Come avviare il progetto in locale
+
+```bash
+# Clona il progetto
+git clone https://github.com/xes-net/sipnosis.git && cd sipnosis
+
+# Installa Flask (per backend)
+pip install flask
+
+# Avvia il backend
+cd sipnosis-backend
+python app.py
+
+# In un’altra finestra, avvia il frontend
+cd ../frontend
+npm install
+npm start
+```
+
+---
+
+## 📂 Struttura del progetto
+
+```
+sipnosis/
+├── frontend/             # React App
+├── sipnosis-backend/     # Flask App
+│   ├── app.py
+│   ├── templates/index.html
+│   ├── static/
+│   ├── oracle_data.py
+│   └── ...
+```
+
+---
+
+## ☁️ Deploy
+
+- **Frontend** → Vercel  
+- **Backend** → Render.com  
+- Deploy automatici via GitHub e webhook
+
+---
+
+## 📜 Licenza
+
+© 2025 [Paride Novellino](https://github.com/xes-net)  
+Distribuito con amore e simboli.  
+Non è magia, è... caffeina canalizzata.
+"""
+
+# Save README.md
+readme_path = Path("/mnt/data/README.md")
+readme_path.write_text(readme_content)
+
+readme_path📜 SipnoSis.L — Oracle Version (D.O.P. Certified)
 
 🔮 **Project**: SipnoSis  
 🧙‍♂️ **Author**: Paride Novellino  
