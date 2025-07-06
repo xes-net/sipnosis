@@ -1,4 +1,46 @@
-        # """# 📜 SipnoSis.L — Versione Oracolare Tracciata
+        # """# # 📜 SipnoSis.L — Oracle Version (D.O.P. Certified)
+
+🔮 **Project**: SipnoSis  
+🧙‍♂️ **Author**: Paride Novellino  
+📅 **Certified**: 2025-07-06  
+🛡️ **License**: Vyra.L™ Mystical Origin Protection  
+
+> 🌀 *"Every stain is a portal, every intent is a ritual."*
+
+---
+
+## 🔮 The Oracle of Imprint
+**SipnoSis** interprets coffee/tea stains through AI-powered symbolic divination, combining Egyptian mysticism and digital intuition.
+
+### ☕ The Ritual
+1. Upload a photo of your coffee/tea stain  
+2. Whisper your intent (e.g., "love", "career", "transformation")  
+3. Receive a personalized oracle reading  
+
+[🌐 Access the Portal](https://sipnosis.vercel.app)
+
+---
+
+## 🧙 Technical Altar
+| Component       | Technologies               |
+|-----------------|----------------------------|
+| **Frontend**    | React (Vercel)             |
+| **Backend**     | Flask (Render)             |
+| **AI Engine**   | Symbolic Oracle Generator  |
+| **Cosmetics**   | Mystic Black/Gold Theme    |
+
+---
+
+## ⚡ Quick Invocation
+```bash
+# 🔮 Frontend Ritual
+cd frontend
+npm install && npm start
+
+# 🐍 Backend Conjuring
+cd backend
+pip install -r requirements.txt
+python app.py📜 SipnoSis.L — Versione Oracolare Tracciata
 
 🔮 Nome Progetto: SipnoSis  
 🧙‍♂️ Autore: Paride Novellino  
