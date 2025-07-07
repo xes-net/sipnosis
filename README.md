@@ -1,4 +1,19 @@
-  <!DOCTYPE html>
+  # 🔮 SipnoSis
+
+**SipnoSis** è un portale oracolare interattivo che interpreta le macchie del tuo caffè o tè.  
+Carica una foto, scegli la tua intenzione e ricevi un messaggio simbolico unico.
+
+🌀 Basato su:
+- Divinazione visiva assistita da AI
+- Simbolismo egizio, tarologico e alchemico
+- Esperienza utente moderna e mistica
+
+🌐 Sito attivo: [https://sipnosis.vercel.app](https://sipnosis.vercel.app)
+
+👁‍🗨 Progetto creato da [Paride Novellino](https://github.com/xes-net)  
+Powered by Vercel & React
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
