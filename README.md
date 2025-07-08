@@ -372,7 +372,7 @@ Hash etico: sipnosis-c20425f+8ec0db6.L
 
 | Parte        | Tecnologie             |
 |--------------|------------------------|
-| Frontend     | React (Vercel)         |
+| Frontend| React (Vercel)         |
 | Backend      | Flask (Render)         |
 | AI           | Generatore oracolare simbolico (in evoluzione) |
 | Stile        | Nero + oro mistico, simboli esoterici |
