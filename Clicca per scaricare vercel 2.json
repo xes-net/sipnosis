@@ -15,7 +15,7 @@
       "dest": "frontend/build/index.html"
     }
   ]
-}version"
+} version"
   "builds": [
     {
       "src": "frontend/package.json",
