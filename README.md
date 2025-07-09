@@ -1,5 +1,4 @@
 # ☕️ SipnoSis – L'Oracolo nella Tua Tazza
-
 **SipnoSis** è un'applicazione React moderna che interpreta macchie di caffè o tè come segni oracolari, fondendo intelligenza artificiale, simbolismo antico e interfaccia sensoriale.  
 Il progetto è ospitato su [Vercel](https://sipnosis.vercel.app) e integra API backend per la lettura personalizzata.
 
