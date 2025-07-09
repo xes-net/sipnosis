@@ -27,4 +27,4 @@
   "outputDirectory": "frontend/build",
   "routes": [
     { "src": "/(.*)", "dest": "/" }
-  ]}
+  ]
