@@ -1,4 +1,75 @@
-  # 🔮 SipnoSis
+  # # ☕️ SipnoSis – L'Oracolo nella Tua Tazza
+
+**SipnoSis** è un'applicazione React moderna che interpreta macchie di caffè o tè come segni oracolari, fondendo intelligenza artificiale, simbolismo antico e interfaccia sensoriale.  
+Il progetto è ospitato su [Vercel](https://sipnosis.vercel.app) e integra API backend per la lettura personalizzata.
+
+---
+
+## 🚀 Tecnologie Usate
+
+- **Frontend**: React (Create React App)
+- **Hosting**: Vercel
+- **Stile**: CSS mistico-minimalista
+- **Backend**: Flask (Render.com)
+- **Storage**: Vercel KV Store (per flag e cache)
+
+---
+
+## 🧭 Routing Principale
+
+| Percorso     | Descrizione                            |
+|--------------|-----------------------------------------|
+| `/`          | Pagina iniziale con benvenuto           |
+| `/oracolo`   | Caricamento immagine + intento          |
+| `/risposta`  | Visualizzazione risposta oracolare      |
+| `/storia`    | Info sul progetto e significati simbolici|
+
+---
+
+## 🔮 Feature Flags attivi (via Vercel Store)
+
+- `oracolo_enabled`: Attiva/disattiva l'oracolo principale
+- `experimental_vision`: Attiva lettura visiva avanzata (in sviluppo)
+
+---
+
+## 🛠️ Avvio in locale
+
+```bash
+pnpm install
+pnpm start
+```
+
+---
+
+## 📁 Struttura del progetto
+
+```
+sipnosis/
+├── frontend/
+│   ├── public/
+│   │   └── index.html
+│   ├── src/
+│   │   ├── App.js
+│   │   ├── index.js
+│   └── package.json
+├── vercel.json
+```
+
+---
+
+## ✨ Credits
+
+Creato con passione da [@xes-net](https://github.com/xes-net)  
+Ispirato alle pratiche divinatorie orientali, egizie e mediterranee.
+
+---
+
+## 📬 Contatti
+
+Hai visto qualcosa nella tazza che vuoi approfondire?  
+Scrivici o visita il nostro [canale Slack](#) per domande e visioni.
+🔮 SipnoSis
 
 **SipnoSis** è un portale oracolare interattivo che interpreta le macchie del tuo caffè o tè.  
 Carica una foto, scegli la tua intenzione e ricevi un messaggio simbolico unico.
