@@ -562,8 +562,4 @@ Hash etico: sipnosis-c20425f+8ec0db6.L
 
 ## ⚙️ Installazione Locale (sviluppatori)
 
-### 🔧 Frontend (React)
-```bash
-cd frontend
-npm install
-npm startcc
+
